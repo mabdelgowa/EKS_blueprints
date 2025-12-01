@@ -4,19 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="758e4a61-586a-47a4-b4e5-43f54fdcd744" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EKS_blueprints.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blueprints.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/igw.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nat.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/subnets.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vpc.tf" afterDir="false" />
+    <list default="true" id="758e4a61-586a-47a4-b4e5-43f54fdcd744" name="Changes" comment="establishing network">
+      <change afterPath="$PROJECT_DIR$/blueprints_addon.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blueprints_addons.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebs_irsa.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eks_cluster.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueprints.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider.tf" beforeDir="false" afterPath="$PROJECT_DIR$/provider.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,13 +31,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -51,6 +47,18 @@
       <option name="presentableId" value="Default" />
       <updated>1764489549458</updated>
     </task>
+    <task id="LOCAL-00001" summary="establishing network">
+      <created>1764493382467</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1764493382467</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="establishing network" />
+    <option name="LAST_COMMIT_MESSAGE" value="establishing network" />
   </component>
 </project>
